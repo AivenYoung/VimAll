@@ -511,8 +511,8 @@ let g:ale_cpp_gcc_options = '-Wall -O2 -std=c++14'
 let g:ale_c_cppcheck_options = ''
 let g:ale_cpp_cppcheck_options = ''
 
-let g:ale_sign_error = ">>"
-let g:ale_sign_warning = "--"
+let g:ale_sign_error = '✗'
+let g:ale_sign_warning = '⚡'
 map <F7> ::ALEToggle<CR>
 
 

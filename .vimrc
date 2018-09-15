@@ -44,6 +44,11 @@ autocmd BufNewFile,BufRead * :syntax match cfunctions "\<[a-zA-Z_][a-zA-Z_0-9]*\
 hi CursorLine cterm=underline,bold 
 set background=dark
 
+" 打开文件光标恢复到上次文件关闭时候的位置
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
 
 ""文件类型
 filetype on             "检测文件类型

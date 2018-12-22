@@ -1,6 +1,6 @@
 # VimAll
 
-__ The version of VIM should >= 8.0 or else some tools related will not work functionly. The plugins I collected are C/C++ oriented and I do not have a mind if others languages is suitable.__
+## The version of VIM should >= 8.0 or else some tools related will not work functionly. The plugins I collected are C/C++ oriented and I do not have a mind if others languages is suitable.
 
 ## Necessary Softwares
 * [VIM](https://github.com/vim/vim)
@@ -24,5 +24,43 @@ We should copy __"gtags.vim"__ and  __"gtags_cscope.vim"__ from directory __"/us
 	The configuration file __".vim/.ycm_extra_conf.py"__ is prepared for YouCompleteMe. ___C++/C header directory___ of my own has been added to it but not yours. You should modify the file according to your system.
 	Note: clang dev and llvm dev librarys should be installed at first  according to the website.
 
+## \.vim directory and files
+.
+├── autoload
+│   └── plug.vim
+├── colors
+│   └── molokai.vim
+├── plugged
+│   ├── DoxygenToolkit.vim
+│   ├── TaskList.vim
+│   ├── YouCompleteMe
+│   ├── a.vim
+│   ├── ale
+│   ├── auto-pairs
+│   ├── bufexplorer.zip
+│   ├── command-t
+│   ├── ctrlp-funky
+│   ├── ctrlp.vim
+│   ├── gutentags_plus
+│   ├── indentLine
+│   ├── minibufexpl.vim
+│   ├── molokai
+│   ├── nerdcommenter
+│   ├── nerdtree
+│   ├── rainbow_parentheses.vim
+│   ├── tabular
+│   ├── taglist.vim
+│   ├── vim-airline
+│   ├── vim-airline-themes
+│   ├── vim-autoformat
+│   ├── vim-cpp-enhanced-highlight
+│   ├── vim-easymotion
+│   ├── vim-fugitive
+│   ├── vim-gutentags
+│   ├── vim-mark
+│   └── vim-preview
+└── plugin
+    ├── gtags-cscope.vim
+    └── gtags.vim
 
 

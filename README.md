@@ -25,6 +25,7 @@ We should copy __"gtags.vim"__ and  __"gtags_cscope.vim"__ from directory __"/us
 	Note: clang dev and llvm dev librarys should be installed at first  according to the website.
 
 ## \.vim directory and files
+```
 .
 ├── autoload
 │   └── plug.vim
@@ -63,4 +64,4 @@ We should copy __"gtags.vim"__ and  __"gtags_cscope.vim"__ from directory __"/us
     ├── gtags-cscope.vim
     └── gtags.vim
 
-
+```
